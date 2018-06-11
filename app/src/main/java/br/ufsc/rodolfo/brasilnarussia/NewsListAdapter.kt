@@ -39,7 +39,7 @@ class NewsListAdapter(private val context: Context,
             titulo.text = news.title
             descricao.text = news.description
             url.text = news.newsUrl
-            Picasso.with(con).load(news.imageUrl).placeholder(R.mipmap.ic_launcher).into(imagem)
+            Picasso.with(con).load(news.imageUrl).placeholder(R.mipmap.ic_launcher_round).into(imagem)
 
         }
     }
