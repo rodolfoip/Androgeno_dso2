@@ -1,0 +1,22 @@
+{
+  "news": [
+    {
+      "title": "tata",
+      "description": "dede",
+      "imageUrl": "https://protocolosx.files.wordpress.com/2008/12/professorxavier_13anosdepois.jpg?w=450&h=291",
+      "newsUrl": "toto"
+    },
+    {
+      "title": "tata1",
+      "description": "dede1",
+      "imageUrl": "http://fantoy.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/boneco-mario-fire-bandai.jpg",
+      "newsUrl": "toto"
+    },
+    {
+      "title": "tata1",
+      "description": "dede1",
+      "imageUrl": "https://instagram.ffln2-1.fna.fbcdn.net/vp/261d25447e6c92d0cb279cf0ef8d2c65/5BC3B4EC/t51.2885-15/e35/31738514_424396128026755_3419937167651110912_n.jpg",
+      "newsUrl": "toto"
+    }
+  ]
+}
