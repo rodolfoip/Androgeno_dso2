@@ -1,0 +1,22 @@
+{
+  "players": [
+    {
+      "name": "Kau",
+      "age": "23",
+      "position": "suporte",
+      "team": "cinf"
+    },
+    {
+      "name": "Marvos",
+      "age": "35",
+      "position": "Comigo",
+      "team": "ex-cinf"
+    },
+    {
+      "name": "Ibere Gerenciavel",
+      "age": "44",
+      "position": "Deus das redes",
+      "team": "cinf"
+    }
+  ]
+}

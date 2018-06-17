@@ -4,7 +4,9 @@ import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.OnClickListener
 import android.view.ViewGroup
+import android.widget.AdapterView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.news_list_item.view.*
 
@@ -13,6 +15,7 @@ class NewsListAdapter(private val context: Context,
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.news_list_item, parent, false)
+
         return ViewHolder(view, context)
     }
 
@@ -22,12 +25,14 @@ class NewsListAdapter(private val context: Context,
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val news = newsList[position]
+
         holder.let {
             it.bindView(news)
         }
     }
 
     class ViewHolder(itemView: View, context: Context) : RecyclerView.ViewHolder(itemView) {
+
         val con = context
 
         fun bindView(news: News) {
@@ -43,5 +48,4 @@ class NewsListAdapter(private val context: Context,
 
         }
     }
-
 }

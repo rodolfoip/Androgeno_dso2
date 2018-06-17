@@ -11,22 +11,10 @@ class ListPlayersActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_players)
 
+        val players = Player.getPlayersFromFile("players.json", this)
         val recyclerView = recycler_view_jogadores
-        recyclerView.adapter = PlayersListAdapter(players(), this)
-        recyclerView!!.layoutManager = LinearLayoutManager(this)
-    }
 
-    private fun players(): List<Player> {
-        return listOf(
-                Player("Kau", "23", "Jogador", "Guarani da palhoça"),
-                Player("Kau", "23", "Jogador", "Guarani da palhoça"),
-                Player("Kau", "23", "Jogador", "Guarani da palhoça"),
-                Player("Marcell-lo", "19", "Jogador", "Guarani da palhoça"),
-                Player("Marcell-lo", "19", "Jogador", "Guarani da palhoça"),
-                Player("Marcell-lo", "19", "Jogador", "Guarani da palhoça"),
-                Player("Marcell-lo", "19", "Jogador", "Guarani da palhoça"),
-                Player("Marcell-lo", "19", "Jogador", "Guarani da palhoça"),
-                Player("Lorival Fagundes", "40", "Jogador", "Guarani da palhoça"),
-                Player("Lorival Fagundes", "40", "Jogador", "Guarani da palhoça"))
+        recyclerView.adapter = PlayersListAdapter(players, this)
+        recyclerView!!.layoutManager = LinearLayoutManager(this)
     }
 }

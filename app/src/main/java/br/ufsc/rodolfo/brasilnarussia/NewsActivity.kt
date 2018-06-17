@@ -17,5 +17,4 @@ class NewsActivity : AppCompatActivity() {
         recyclerViewNews.adapter = NewsListAdapter(this, newsList)
         recyclerViewNews!!.layoutManager = LinearLayoutManager(this)
     }
-
 }
