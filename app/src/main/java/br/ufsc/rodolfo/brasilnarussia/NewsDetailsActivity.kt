@@ -33,7 +33,7 @@ class NewsDetailsActivity : AppCompatActivity() {
         val url = intent.extras.getString(EXTRA_URL)
 
         setTitle(title)
-
+        println( "aqui"+url)
         webView = detail_web_view
         webView.loadUrl(url)
     }

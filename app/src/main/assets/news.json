@@ -1,22 +1,16 @@
 {
   "news": [
     {
-      "title": "tata",
-      "description": "dede",
-      "imageUrl": "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
-      "newsUrl": "toto"
+      "title": "Mais bola, menos cabelo ....",
+      "description": "O maior desafio da seleção brasileira na sexta-feira, contra a Costa Rica, é psicológico. Em termos técnicos, o jogo é uma barbada.",
+      "imageUrl": "https://s2.glbimg.com/duOEkqxm3S9XajSlTy97nWCJOqg=/292x0:1498x1311/570x620/smart/http://s2.glbimg.com/wg2d33sGIQzVRqahXSbx0Q5rDN8=/301x0:1907x1311/1606x1311/s.glbimg.com/es/ge/f/original/2018/06/18/ap18168708704887_atXKqL9.jpg",
+      "newsUrl": "https://esporte.uol.com.br/futebol/copa-do-mundo/2018/colunas/renato-mauricio-prado/2018/06/18/mais-bola-menos-cabelo.htm"
     },
     {
-      "title": "tata1",
-      "description": "dede1",
-      "imageUrl": "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
-      "newsUrl": "toto"
-    },
-    {
-      "title": "tata1",
-      "description": "dede1",
-      "imageUrl": "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
-      "newsUrl": "toto"
+      "title": "VAR analisou lances, e Fifa vê acerto em polêmicas de Brasil x Suíça ... - Veja mais em https://esporte.uol.com.br/futebol/copa-do-mundo/2018/noticias/2018/06/18/var-analisou-lances-e-fifa-ve-acerto-em-lances-polemicos-de-brasil-x-suica.htm?cmpid=copiaecola",
+      "description": "Equipe do VAR não vê falta em Miranda no lance do gol da Suíça.",
+      "imageUrl": "https://s2.glbimg.com/duOEkqxm3S9XajSlTy97nWCJOqg=/292x0:1498x1311/570x620/smart/http://s2.glbimg.com/wg2d33sGIQzVRqahXSbx0Q5rDN8=/301x0:1907x1311/1606x1311/s.glbimg.com/es/ge/f/original/2018/06/18/ap18168708704887_atXKqL9.jpg",
+      "newsUrl": "https://esporte.uol.com.br/futebol/copa-do-mundo/2018/noticias/2018/06/18/var-analisou-lances-e-fifa-ve-acerto-em-lances-polemicos-de-brasil-x-suica.htm"
     }
   ]
 }

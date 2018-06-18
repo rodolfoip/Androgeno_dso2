@@ -29,9 +29,34 @@ class NewsListAdapter(private val context: Context,
         holder.let {
             it.bindView(news)
         }
+
+        holder.setOnCustomItemClickListener(object : CustomItemClickListener {
+            override fun onCustomItemClickListener(view: View, pos: Int) {
+                val newsDetailsActivity = NewsDetailsActivity.newIntent(context,newsList[pos])
+                context.startActivity(newsDetailsActivity)
+            }
+
+        })
+
     }
 
-    class ViewHolder(itemView: View, context: Context) : RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View, context: Context) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
+
+        var customItemClickListener: CustomItemClickListener? = null
+
+        init {
+            itemView.setOnClickListener(this)
+        }
+
+
+        fun setOnCustomItemClickListener(itemClickListener: CustomItemClickListener) {
+            this.customItemClickListener = itemClickListener
+        }
+
+
+        override fun onClick(v: View?) {
+            this.customItemClickListener!!.onCustomItemClickListener(v!!, adapterPosition)
+        }
 
         val con = context
 
@@ -39,13 +64,10 @@ class NewsListAdapter(private val context: Context,
             val titulo = itemView.news_list_titulo
             val descricao = itemView.news_list_description
             val imagem = itemView.news_list_image
-            val url = itemView.news_list_url
 
             titulo.text = news.title
             descricao.text = news.description
-            url.text = news.newsUrl
             Picasso.with(con).load(news.imageUrl).placeholder(R.mipmap.ic_launcher_round).into(imagem)
-
         }
     }
 }
