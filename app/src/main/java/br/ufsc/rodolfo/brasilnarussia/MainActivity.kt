@@ -1,9 +1,11 @@
 package br.ufsc.rodolfo.brasilnarussia
 
 import android.content.Intent
+import android.net.Uri
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,4 +23,11 @@ class MainActivity : AppCompatActivity() {
         val intentNews = Intent(this, NewsActivity::class.java)
         startActivity(intentNews)
     }
+
+    fun abrirMapaLocaisJogoBR(view: View?) {
+        val intentMaps = Intent(this, CronogramaActivity::class.java)
+        startActivity(intentMaps)
+    }
+
+
 }

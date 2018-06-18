@@ -1,0 +1,25 @@
+{
+  "jogos": [
+    {
+      "data": "17/06/2018",
+      "horario": "15:00",
+      "local": "local da russia",
+      "lat": "-27.6368861",
+      "lng": "-48.660947"
+    },
+    {
+      "data": "17/06/2018",
+      "horario": "15:00",
+      "local": "local da russia",
+      "lat": "-27.6036004",
+      "lng": "48.5250796"
+    },
+    {
+      "data": "17/06/2018",
+      "horario": "15:00",
+      "local": "local da russia",
+      "lat": "-34.0",
+      "lng": "151.0"
+    }
+  ]
+}

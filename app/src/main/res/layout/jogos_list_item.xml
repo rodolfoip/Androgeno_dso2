@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="?attr/colorPrimary"
+    android:backgroundTint="?android:attr/colorPressedHighlight"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/jogos_list_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/jogos_list_data"
+        android:layout_below="@+id/jogos_list_horario"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textSize="16sp"
+        tools:text="Local" />
+
+    <TextView
+        android:id="@+id/jogos_list_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        tools:text="Data" />
+
+    <TextView
+        android:id="@+id/jogos_list_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jogos_list_data"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textSize="16sp"
+        tools:text="Horario" />
+
+</RelativeLayout>
